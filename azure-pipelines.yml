@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'azureyaml-rg'
     location: 'Australia Southeast'
     templateLocation: 'Linked artifact'
-    csmFile: '**\website.json'
+    csmFile: '**/website.json'
     csmParametersFile: 'website.parameters.json'
     deploymentMode: 'Incremental'
     deploymentName: 'testyaml'
